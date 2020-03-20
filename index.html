@@ -11,7 +11,10 @@
       gtag('config', 'UA-7870921-7');
     </script> 
     <style>
-        @media only screen and (max-width: 768px) {
+        @media only screen 
+        and (min-device-width : 375px) 
+        and (max-device-width : 812px)
+        and (-webkit-device-pixel-ratio : 3) {
           #container {
             background-color: lightblue;
             width: 100%;
